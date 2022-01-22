@@ -12,8 +12,8 @@ var negativo = -40
 
 // Crea una variable booleana:
 const nuevoBool = null;
-Meencantajavascript = true
-nomejustanlosvideojuegos = false
+const Meencantajavascript = true
+const nomejustanlosvideojuegos = false
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - null === 5;
