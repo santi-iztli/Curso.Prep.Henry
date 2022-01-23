@@ -3,17 +3,20 @@
 // Crea una variable "string", puede contener lo que quieras:
 const nuevaString = hola mundo;
 var nombremascota = "zazu";
+const nuevastring = 'Hola mundo';
 
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = null;
-var positivo = 27
-var negativo = -40
+var positivo = 27;
+var negativo = -40;
+const nuevoNum = 8;
 
 // Crea una variable booleana:
 const nuevoBool = null;
 const Meencantajavascript = true
 const nomejustanlosvideojuegos = false
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 10 - null === 5;
@@ -37,31 +40,35 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
     // "Return" la string provista: str
     // Tu código:
-
+    return str;
 }
 
 function suma(x, y) {
     // "x" e "y" son números
     // Suma "x" e "y" juntos y devuelve el valor
     // Tu código:
+    return x - y;
 
 }
 
 function resta(x, y) {
     // Resta "y" de "x" y devuelve el valor
     // Tu código:
+    return x - y;
 
 }
 
 function multiplica(x, y) {
     // Multiplica "x" por "y" y devuelve el valor
     // Tu código:
+    return x * y;
 
 }
 
 function divide(x, y) {
     // Divide "x" entre "y" y devuelve el valor
     // Tu código:
+    return x / y;
 
 }
 
@@ -69,6 +76,11 @@ function sonIguales(x, y) {
     // Devuelve "true" si "x" e "y" son iguales
     // De lo contrario, devuelve "false"
     // Tu código:
+    if (x === y) {
+        return true;
+    } else {
+        return false
+    }
 
 }
 
