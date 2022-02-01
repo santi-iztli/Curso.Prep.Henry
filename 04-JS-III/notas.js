@@ -5,9 +5,9 @@
 
 var arreglo = [1, 2, 3, 4, 5];
 
-//pueden aceptar todos los tipos datos
+//pueden aceptar todos los tipos datos: numeros,strigs,undefined, null, funciones y arrays.
 
-var otroarreglo = [1, 2, 'Hola', null, undefined];
+var otroarreglo = [1, 2, 'Hola', null, undefined, function() { console.log('hola') }, 2, [1, 2, 3, 4]];
 
 // Inclisive pueden tener un elemento que sea un arreglo 
 
@@ -43,7 +43,7 @@ var arregloAdentro = [1, 2, 'chao', [2, 3, 'hola'];
         console.log(nombresEstudiantes); // ['Jorge', 'Antonio', 'Sara', 'Samuel']
 
         //-------------------------------------------------
-        //.push y .pop
+        //.push y .pop (es como cortar el ultimo elemento de el arrtay o guardar en una variable)
         //Otros dos métodos de matriz incorporados muy útiles son .push y .pop. Estos métodos se refieren a la adición y eliminación de elementos de la matriz después de su declaración inicial.
 
         //.push agrega un elemento al final de la matriz, incrementando su longitud en 1. .push devuelve la nueva longitud.
@@ -92,3 +92,29 @@ var arregloAdentro = [1, 2, 'chao', [2, 3, 'hola'];
         // 'Antonio'
         // 'Sara'
         // 'Samuel'
+
+
+
+        var lista = [1, 2, 3, 4, 5];
+
+
+        //funcion bucle del 0 a lista.length imprime la longitud de lista como return.
+
+        for (var i = 0; i < lista.length; i++) {
+            console.log(lista[i])
+        }
+
+        //Vaciar lista con la funcion .pop y while
+        while (lista.length > 0) {
+            console.log(lista.pop())
+        }
+
+
+        https: //developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+
+
+
+        for (var i = 0; i < lista.length; i++) {
+            console.log(lista(i))
+        }
