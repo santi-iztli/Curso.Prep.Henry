@@ -78,6 +78,7 @@ function matriz(n, m) {
     }
 }
 
+
 >
 matriz(2, 3)
 0 0
